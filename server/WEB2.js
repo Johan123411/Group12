@@ -524,9 +524,6 @@ async function getS3()
 	{
 		aws.config.setPromisesDependency();
 		aws.config.update({
-			accessKeyId: "AKIAJGHXZUKMOAJGY66A",
-			secretAccessKey: "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",
-			region: 'us-east-1'
 		});
 		
 		
